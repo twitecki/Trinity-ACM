@@ -1,0 +1,90 @@
+/*---- Exec BOXES ----*/
+.student {
+	/*border: 1px solid #000000;*/
+	margin: 30px 35px 50px 35px;
+	text-align: center;
+	float: left;
+	padding: 10px;
+	position: relative;
+	}
+
+.student a:link,
+.student a:active,
+.student a:visited,
+.student a:hover {
+	text-decoration: none;
+	}
+
+.student .name {
+	font-size: 18px;
+	text-align: center;
+	margin: 2px 0 0 0;
+	}
+	
+.student .position {
+	font-size: 14px;
+	text-align: center;
+	margin: 15px 0 0 0;
+
+}
+
+.jumbotrinity{
+	padding: 30px;
+	margin-bottom: 30px;
+	background-image: url('../tikis.jpg');
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  
+  height: 400px;
+  background-position: center;
+    
+/*
+        overflow-y: hidden ! important;
+        overflow-x: hidden ! important;
+        background-color: #000;
+        background-image: url('../images/mit-background2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+*/
+}
+
+.jumbotrinity h1{
+	text-align: center;
+	font-size:62px;
+  letter-spacing:0.2em;
+  color:#fff;
+  margin:0;
+  background:url(../img/developer.png) center top no-repeat transparent;
+  background-size:50px;
+  padding-top:10px;
+  font-weight:600;
+  text-shadow: -5px 5px 0 rgba(0,0,0,0.1);
+
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotrinity h1 {
+  	font-size:32px;
+    padding-top:40px;
+  }}
+
+  .parallax {
+    padding:50px 0 0;
+    text-align:center;
+    text-transform:uppercase;
+/*     display:none; */
+    height:280px;
+    position:relative;
+}
+
+
+.jumbotrinity .parallax p {
+  letter-spacing:0.5em;
+  margin-top:20px;
+  font-size:12px;
+  color:#eee;
+}
+
